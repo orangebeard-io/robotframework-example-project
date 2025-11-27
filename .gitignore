@@ -1,0 +1,9 @@
+.venv
+orangebeard.json
+__pycache__/
+output.xml
+newBooking.json
+playwright-log.txt
+browser/
+log.html
+report.html
