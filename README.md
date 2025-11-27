@@ -23,7 +23,8 @@ Create orangebeard.json in project root:
 }
 ```
 
-It's good practice to omit the token from the json file and get it from env:
+It's good practice to omit the token from the json file and get it from env:  
+
 Windows cmd: 
 ```
 set orangebeard_token=[LISTENER TOKEN]
