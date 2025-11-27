@@ -12,9 +12,13 @@ Inside your venv:
 ```
 pip install -r requirements.txt
 rfbrowser init   
-```
+```  
 
-Create orangebeard.json in project root:
+### Listener configuration:
+
+- Get your listener token from: https://app.orangebeard.io/u/account/listener-token  
+- Create orangebeard.json in project root:
+
 ```json
 {
 	"endpoint": "https://app.orangebeard.io/[ORGANIZATION]",
@@ -31,7 +35,7 @@ Create orangebeard.json in project root:
 }
 ```
 
-It's good practice to omit the token from the json file and get it from env:  
+__It's good practice__ to omit the token from the json file and get it from your env:
 
 Windows cmd: 
 ```
