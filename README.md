@@ -1,6 +1,14 @@
 # Sample tests to demo Listener
-### Dependency installation:
 
+### Prerequisites:
+- Python 3 installed
+- Working from a Virtual environment (venv) is recommended
+  
+For RobotFramework's install guide, see: https://docs.robotframework.org/docs/getting_started/testing
+
+
+### Dependency installation:
+Inside your venv:
 ```
 pip install -r requirements.txt
 rfbrowser init   
